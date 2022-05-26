@@ -1,4 +1,4 @@
 buzzer.c:6:6:Buzzer_Init	8	static
 buzzer.c:11:6:Buzzer_Set_Freq	16	static
 buzzer.c:15:6:Buzzer_Set_Volume	16	static
-buzzer.c:21:6:Buzzer_Play	32	static
+buzzer.c:21:6:Buzzer_Play_Sound	32	static

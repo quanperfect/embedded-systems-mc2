@@ -54,11 +54,11 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-	uint32_t megalovania_melody[] = {
-			N_D3, N_D3, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_C3, N_C3, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_B2, N_B2, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_AS2, N_AS2, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_D3, N_D3, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_C3, N_C3, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_B2, N_B2, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_AS2, N_AS2, N_D4, N_A3, 0, N_GS3, N_G3, N_F3, N_D3, N_F3, N_G3, N_D4, N_D4, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_C4, N_C4, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_B3, N_B3, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_AS3, N_AS3, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_D4, N_D4, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_C4, N_C4, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_B3, N_B3, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_AS3, N_AS3, N_D5, N_A4, 0, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, N_F4, N_F4, N_F4, N_F4, N_F4, N_D4, N_D4, N_D4, N_F4, N_F4, N_F4, N_G4, N_GS4, N_G4, N_F4, N_D4, N_F4, N_G4, 0, N_F4, N_F4, N_F4, N_G4, N_GS4, N_A4, N_C5, N_A4, N_D5, N_D5, N_D5, N_A4, N_D5, N_C5, N_F4, N_F4, N_F4, N_F4, N_F4, N_D4, N_D4, N_D4, N_F4, N_F4, N_F4, N_F4, N_D4, N_F4, N_E4, N_D4, N_C4, 0, N_G4, N_E4, N_D4, N_D4, N_D4, N_D4, N_F3, N_G3, N_AS3, N_C4, N_D4, N_F4, N_C5, 0, N_F4, N_D4, N_F4, N_G4, N_GS4, N_G4, N_F4, N_D4, N_GS4, N_G4, N_F4, N_D4, N_F4, N_F4, N_F4, N_GS4, N_A4, N_C5, N_A4, N_GS4, N_G4, N_F4, N_D4, N_E4, N_F4, N_G4, N_A4, N_C5, N_CS5, N_GS4, N_GS4, N_G4, N_F4, N_G4, N_F3, N_G3, N_A3, N_F4, N_E4, N_D4, N_E4, N_F4, N_G4, N_E4, N_A4, N_A4, N_G4, N_F4, N_DS4, N_CS4, N_DS4, 0, N_F4, N_D4, N_F4, N_G4, N_GS4, N_G4, N_F4, N_D4, N_GS4, N_G4, N_F4, N_D4, N_F4, N_F4, N_F4, N_GS4, N_A4, N_C5, N_A4, N_GS4, N_G4, N_F4, N_D4, N_E4, N_F4, N_G4, N_A4, N_C5, N_CS5, N_GS4, N_GS4, N_G4, N_F4, N_G4, N_F3, N_G3, N_A3, N_F4, N_E4, N_D4, N_E4, N_F4, N_G4, N_E4, N_A4, N_A4, N_G4, N_F4, N_DS4, N_CS4, N_DS4,
+	uint32_t sound[] = {
+		100, 2000, 100, 2000, 100, 2000
 	};
-	uint32_t megalovania_delays[] = {
-			16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 8, 16, 8, 8, 8, 8, 4, 16, 8, 16, 8, 8, 8, 16, 16, 16, 16, 16, 8, 8, 16, 8, 8, 8, 8, 8, 8, 8, 8, 16, 16, 16, 2, 8, 16, 8, 8, 8, 8, 4, 16, 8, 16, 8, 8, 8, 8, 8, 16, 8, 16, 8, 8, 8, 8, 8, 8, 8, 16, 8, 15, 8, 8, 2, 3, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 2, 16, 8, 16, 8, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8,  8, 8, 16, 16, 16, 2, 8, 8, 8, 8, 4, 4, 4, 4, 4, 4, 2, 8, 8, 8, 8, 2, 2, 3, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 2, 16, 8, 16, 8, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8,  8, 8, 16, 16, 16, 2, 8, 8, 8, 8, 4, 4, 4, 4, 4, 4, 2, 8, 8, 8, 8, 2, 1
+	uint32_t sound_delays[] = {
+		50, 75, 100, 100, 75, 50
 	};
 /* USER CODE END PV */
 
@@ -171,122 +171,112 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 
 void TIMER_NOW( void ){
-	uint8_t Row[4] = {ROW4, ROW3, ROW2, ROW1}, Key, OldKey, OLED_Keys[4] = {0x30,0x30,0x30,0x30};
-	  oled_Reset();
-	  oled_WriteString("Timer: ", Font_11x18, White);
-	  OLED_TIMER(OLED_Keys);
-	  oled_UpdateScreen();
-	  uint8_t isStarted = 0, isPaused = 0;
-	  uint8_t pos = 0;
-	  int count = 0, isStop = 0;
-	  uint32_t time_s = 0;
+		uint8_t Row[4] = {ROW4, ROW3, ROW2, ROW1}, Key, OldKey, OLED_Keys[4] = {0x30,0x30,0x30,0x30};
+		oled_Reset();
+		oled_WriteString("Timer: ", Font_11x18, White);
+		OLED_TIMER(OLED_Keys);
+		oled_UpdateScreen();
+		uint8_t isStarted = 0, isPaused = 0, isManuallyStopped = 0;
+		uint8_t position = 0;
+		int count = 0;
+		uint32_t timeSeconds = 0;
 
-	  uint8_t sec, ten_sec, min, ten_min;
+		uint8_t sec, sec10, min, min10;
 
-	  while (1){
+	  while (1) {
 
+	    if (isStarted) {
+				while (timeSeconds != 0) {
+					HAL_Delay(25);
+					count++;
+					if (!isPaused && count == 1000 / 28) {
+						timeSeconds--;
+						min10 = timeSeconds / 600;
+						count = 0;
+						min = (timeSeconds - 600 * min10) / 60;
+						sec10 = (timeSeconds - 600 * min10 - 60 * min) / 10;
+						sec = (timeSeconds - 600 * min10 - 60 * min - 10 * sec10);
+						OLED_Keys[0] = 0x30 + sec; // 0x30 = 0
+						OLED_Keys[1] = 0x30 + sec10;
+						OLED_Keys[2] = 0x30 + min;
+						OLED_Keys[3] = 0x30 + min10;
+						OLED_TIMER(OLED_Keys);
+					}
 
-	    if (isStarted){
-	    	if (time_s >= 3600) {
-	    		time_s = 3600;
-	    	}
-	      while (time_s != 0) {
-	        HAL_Delay(25);
-	        count++;
-	        if (!isPaused && count == 1000 / 28) {
-	          time_s--;
-	          ten_min = time_s / 600;
-	          count = 0;
-	          min = (time_s - 600 * ten_min) / 60;
-	          ten_sec = (time_s - 600 * ten_min - 60 * min) / 10;
-	          sec = (time_s - 600 * ten_min - 60 * min - 10 * ten_sec);
-	          OLED_Keys[0] = 48 + sec;
-	          OLED_Keys[1] = 48 + ten_sec;
-	          OLED_Keys[2] = 48 + min;
-	          OLED_Keys[3] = 48 + ten_min;
+					OldKey = Key;
+					Key = Get_Key( Row[0] );
+
+					if (Key == 0x0C && OldKey != Key) {
+						if (isPaused) {
+							isPaused = 0;
+						} else {
+							isPaused = 1;
+						}
+						count = 0;
+					}
+
+					if (Key == 0x0B) {
+					  isManuallyStopped = 1;
+					  break;
+					}
+			  }
+
+			  isStarted = 0;
+			  position = 0;
+			  OLED_Keys[0] = 0x30;
+			  OLED_Keys[1] = 0x30;
+			  OLED_Keys[2] = 0x30;
+			  OLED_Keys[3] = 0x30;
+			  OLED_TIMER(OLED_Keys);
+			  if (!isManuallyStopped) {
+				  Buzzer_Play_Sound(sound, sound_delays, sizeof(sound) / sizeof(uint32_t));
+			  }
+			  isManuallyStopped = 0;
+	    }
+
+        // 7 8 9
+        // 4 5 6
+        // 1 2 3
+        // 0 s p
+	    for (int i = 0; i < 4; i++) {
+	      OldKey = Key;
+	      Key = Get_Key( Row[i] );
+	      if (Key != OldKey){
+	        if (Key >= 0x00 && Key <= 0x0A && !isStarted) {
+	          OLED_Keys[position] = 0x30 + Key;
+	          if (position == 0) {
+				  timeSeconds = 0;
+				  OLED_Keys[1] = 0x30;
+				  OLED_Keys[2] = 0x30;
+				  OLED_Keys[3] = 0x30;
+				  timeSeconds += Key;
+				  position++;
+	          } else  if (position == 1) {
+	        	  timeSeconds += 10*Key;
+	              position++;
+	          } else if (position == 2) {
+	        	  timeSeconds += 60*Key;
+	              position++;
+	          } else if (position == 3) {
+	        	  if (Key > 5) {
+	        		  Key = 5;
+	        		  OLED_Keys[position] = 0x30 + Key;
+	        	  }
+	            timeSeconds += 600* Key;
+	            position = 0;
+	          }
+
 	          OLED_TIMER(OLED_Keys);
-
-	        }
-
-	          OldKey = Key;
-	          Key = Get_Key( Row[0] );
-	          if (Key == 0x0C && OldKey != Key) {
+	        } else if (Key == 0x0B) { // reset
+	            break;
+	        } else if (Key == 0x0C) { // toggle pause
+	          if (!isStarted) {
+	            isStarted  = 1;
+	          } else {
 	            if (isPaused) {
 	              isPaused = 0;
 	            } else {
 	              isPaused = 1;
-	            }
-	            count = 0;
-	          }
-	          if (Key == 0x0B) {
-	        	  isStop = 1;
-	        	  break;
-	          }
-	      }
-	      isStarted = 0;
-
-	      pos = 0;
-	      OLED_Keys[0] = 0x30;
-	      OLED_Keys[1] = 0x30;
-	      OLED_Keys[2] = 0x30;
-	      OLED_Keys[3] = 0x30;
-	      OLED_TIMER(OLED_Keys);
-	      if (!isStop) {
-	    	  Buzzer_Play(megalovania_melody, megalovania_delays, sizeof(megalovania_melody) / sizeof(uint32_t));
-	      }
-	      isStop = 0;
-
-	    }
-	    for ( int i = 0; i < 4; i++ ){
-	      OldKey = Key;
-	      Key = Get_Key( Row[i] );
-	      if (Key != OldKey){
-	        // 7 8 9
-	        // 4 5 6
-	        // 1 2 3
-	        // 0 b p
-	        if (Key >= 0x00 && Key <= 0x0A && !isStarted){ //redefined as normal calculator
-	          OLED_Keys[pos] = 0x30 + Key;
-	          if (pos == 0) {
-	            time_s=0;
-	              OLED_Keys[1] = 0x30;
-	              OLED_Keys[2] = 0x30;
-	              OLED_Keys[3] = 0x30;
-
-	            time_s += Key;
-
-	            pos++;
-	          }else  if (pos == 1) {
-	            time_s += 10*Key;
-
-	              pos++;
-	          }else if (pos == 2) {
-	            time_s += 60*Key;
-
-	              pos++;
-	          } else if (pos == 3){
-	        	  if (Key > 5) {
-	        		  Key = 5;
-	        		  OLED_Keys[pos] = 0x30 + Key;
-
-	        	  }
-	            time_s +=600* Key;
-
-	            pos = 0;
-	          }
-
-	          OLED_TIMER(OLED_Keys);
-	        } else if (Key == 0x0B){ // stop (reset)
-	            break;
-	        } else if (Key == 0x0C){ // start (pause / unpause)
-	          if (!isStarted){
-	            isStarted  = 1;
-	            //start here
-	          } else {
-	            if (isPaused){
-	              isPaused = 0; // unpause
-	            } else{
-	              isPaused = 1; // pause
 	            }
 	          }
 	        }

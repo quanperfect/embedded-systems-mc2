@@ -18,10 +18,10 @@ void Buzzer_Set_Volume (uint16_t volume) {
 	TIM2->CCR1 = volume;
 }
 
-void Buzzer_Play (uint32_t* melody, uint32_t* delays, uint16_t len) {
+void Buzzer_Play_Sound (uint32_t* sound, uint32_t* delays, uint16_t len) {
 	for(int i = 0; i < len; i++) {
-	  	if (melody[i] != 0) {
-	  		Buzzer_Set_Freq(melody[i]);
+	  	if (sound[i] != 0) {
+	  		Buzzer_Set_Freq(sound[i]);
 	  		Buzzer_Set_Volume(BUZZER_VOLUME_MAX);
 	  		HAL_Delay(1920/delays[i]/2);
 	  		Buzzer_Set_Volume(BUZZER_VOLUME_MUTE);
